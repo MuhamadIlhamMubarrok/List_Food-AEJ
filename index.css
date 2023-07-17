@@ -1,0 +1,32 @@
+.foodItem {
+  background-color: white;
+  padding: 20px;
+  width: 20%;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin
+}
+
+.foodItem > h1 {
+  margin-top: 20px;
+}
+
+.foodItem > img {
+  width: 100%;
+}
+
+.pagination-button {
+  padding: 5px 10px;
+  margin: 0 2px;
+  background-color: #74B073;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pagination-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
