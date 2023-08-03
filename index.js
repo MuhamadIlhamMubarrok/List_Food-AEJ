@@ -75,7 +75,8 @@ const searchFood = async (pageNumber) => {
   }
 };
 
-
 searchButton.addEventListener("click", () => {
   searchFood(1);
 });
+
+module.exports = searchFood;
